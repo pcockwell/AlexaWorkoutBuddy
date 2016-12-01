@@ -40,7 +40,7 @@ var handlers = {
     },
 
     'RepCountIntent': function() {
-        var myReps = this.event.request.intent.slots.reps.value;
+        var myReps = parseInt(this.event.request.intent.slots.reps.value);
         var repCounts = this.attributes['repCounts'];
         var numRounds = this.attributes['numRounds'];
         var curRound = this.attributes['curRound'];
