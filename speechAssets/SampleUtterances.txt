@@ -1,0 +1,11 @@
+DurationIntent {rounds} round
+DurationIntent {rounds} rounds
+DurationIntent {duration} minute
+DurationIntent {duration} minutes
+DurationIntent {duration} minutes long
+
+RepCountIntent {reps}
+RepCountIntent {reps} {exercise}
+RepCountIntent {reps} reps
+RepCountIntent I did {reps}
+RepCountIntent I did {reps} {exercise}

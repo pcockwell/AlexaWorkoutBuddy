@@ -1,0 +1,10 @@
+{
+  "name": "AlexaWorkoutBuddy",
+  "version": "1.0.0",
+  "description": "Alexa Tabata Workout Buddy",
+  "main": "index.js",
+  "dependencies": {
+    "alexa-sdk": "^1.0.6"
+  },
+  "devDependencies": {}
+}

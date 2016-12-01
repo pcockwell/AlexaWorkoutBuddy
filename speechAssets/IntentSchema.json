@@ -1,0 +1,53 @@
+
+{
+  "intents": [
+    {
+      "intent": "DurationIntent",
+      "slots":[
+        {
+          "name":"duration",
+          "type":"AMAZON.NUMBER"
+        },
+        {
+          "name":"rounds",
+          "type":"AMAZON.NUMBER"
+        }
+      ]
+    },
+    {
+      "intent": "RepCountIntent",
+      "slots":[
+        {
+          "name":"reps",
+          "type":"AMAZON.NUMBER"
+        },
+        {
+          "name":"exercise",
+          "type":"LIST_OF_EXERCISES"
+        }
+      ]
+    },
+    {
+      "intent": "AMAZON.StartOverIntent"
+    },
+    {
+      "intent": "AMAZON.RepeatIntent"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.YesIntent"
+    },
+    {
+      "intent": "AMAZON.NoIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    }
+
+  ]
+}
